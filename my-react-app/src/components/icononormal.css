@@ -1,0 +1,16 @@
+.img-container-normal span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    font-size: 2rem;
+    transition: .3s ease;
+    cursor: pointer;
+
+}
+.img-container-normal span:hover{
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+}
+
+/* colores */

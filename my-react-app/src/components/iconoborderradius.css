@@ -1,19 +1,14 @@
-.cuadrado{
+.cuadrado-radius{
     width: 50px;
     height: 50px;
-    border-radius: 15px;
-    background-color: #41a02a;
+    background-color:#41a02a;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-    transition: .3s ease;
-    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
-.cuadrado:hover{
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.404) ;
-}
-.img-container{
+.img-container-radius{
     width: 90%;
     height: 90%;
     border-radius: 15px;
@@ -21,14 +16,12 @@
     justify-content: center;
     align-items: center;
 }
-.img-container span{
+.img-container-radius span{
     display: flex;
     justify-content: center;
     align-items: center;
     width: fit-content;
     height: fit-content;
     font-size: 2rem;
+    color: white
 }
-/* .img-container span:hover{
-    color: blue;
-} */
