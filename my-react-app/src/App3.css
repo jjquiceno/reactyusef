@@ -1,0 +1,29 @@
+#root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.separador{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+/* template */
+.caja{
+    width: 100%;
+    /* border: solid blue; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .celular{
+    border: 5px solid black;
+    width: 28%;
+    height: 95%;
+    border-radius: 25px;
+  }
