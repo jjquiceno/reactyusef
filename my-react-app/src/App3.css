@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 .separador{
@@ -15,15 +14,113 @@
 /* template */
 .caja{
     width: 100%;
-    /* border: solid blue; */
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .celular{
+}
+.celular{
     border: 5px solid black;
-    width: 28%;
+    width: 25%;
     height: 95%;
     border-radius: 25px;
-  }
+}
+.verde{
+    border-radius: 21px;
+    background-color: #4aa534;
+    width: 100%;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+}
+.componentes-arriba{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blanco{
+    width: 100%;
+    border-radius: inherit;
+    height: 65%;
+    position: relative;
+    background-color: white;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../public/ensalada.avif);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.363);
+}
+.info{
+    width: 95%;
+    height: 70%;
+    border-radius: inherit;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-int-texts{
+    display: flex;
+    justify-content: space-between;
+}
+.contador-container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contador{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #4aa534;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-int-iconos{
+    display: flex;
+    justify-content: space-between;
+}
+.flexs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconoA{
+    color: yellow;
+}
+.iconoR{
+    color: red;
+}
+p, h3{
+    margin: 0;
+}
+.white{
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
