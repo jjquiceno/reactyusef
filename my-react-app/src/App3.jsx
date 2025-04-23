@@ -3,7 +3,8 @@ import './App3.css'
 import { Iconoopaco } from './components/Iconoopaco'
 import { Botonverde } from './components/Botonverde'
 
-import { faStar, faDroplet, faClock } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faDroplet, faClock, faLessThan, faHeart as faHeartSolid } from '@fortawesome/free-solid-svg-icons'
+import { faHeart as faHeartRegular } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
@@ -15,14 +16,20 @@ function App() {
           <div className="verde">
             <div className="componentes-arriba">
               <div className="componentes-int">
-                <Iconoopaco/>
+                <Iconoopaco className="corazoncito" iconoopaco={<FontAwesomeIcon icon={faHeartRegular}/>}/>
               </div>
               <div className="componentes-int">
                 <p className='white'>Food details</p>
               </div>
               <div className="componentes-int">
-                <Iconoopaco/>
+                <Iconoopaco iconoopaco={<FontAwesomeIcon icon={faLessThan}/>}/>
               </div>
+              {/* <script>
+                const iconoCorazon = document.querySelector('.corazoncito')
+                iconoCorazon.addEventListener("click", function() {
+                  
+                });
+              </script> */}
             </div>
             <div className="blanco">
               <div className="circulo">

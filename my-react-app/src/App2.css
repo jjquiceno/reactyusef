@@ -1,0 +1,40 @@
+#root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.separador{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+/* template */
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celular{
+    border: 5px solid black;
+    width: 25%;
+    height: 95%;
+    border-radius: 25px;
+}
+
+.mitad-arriba{
+    border: solid black;
+    width: 100%;
+    height: 39%;
+    border-radius: inherit;
+}
+.mitad-abajo{
+    border: solid black;
+    width: 100%;
+    height: 59%;
+    border-radius: inherit;
+}
