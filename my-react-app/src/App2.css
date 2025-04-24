@@ -97,13 +97,14 @@
     /* border: solid red; */
     height: 80%;
     width: 100%;
-    border-radius: inherit;
-    background-color: wheat;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     overflow-y: scroll;
+}
+.tarjetas-mitad::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento */
 }
 .iconos-mitad{
     /* border: solid yellow; */

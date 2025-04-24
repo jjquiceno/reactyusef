@@ -1,6 +1,63 @@
 .tarjeta-container{
-    border: solid black;
     width: 40%;
-    height: 150px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.151);
+}
+p{
+    margin: 0;
+}
+.tarjeta-circulo-cotainer{
+    height: 60%;    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta-corazon{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    color: red;
+}
+.tarjeta-circulo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../public/ensalada.avif);
+    background-size: cover;
+    background-position: center;
+}
+.tarjeta-text-container{
+    height: 40%;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ttci{
+    display: flex;
+    height: 33%;
+}
+.tarjeta-text-container > :nth-child(1){
+    justify-content: center;
+}
+.tarjeta-text-container > :nth-child(2){
+    justify-content: space-between;
+    padding: 0 4px 0 4px;
+}
+.tarjeta-text-container > :nth-child(3){
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+    padding: 0 0 0 4px;
+}
 
+.tarjetatime{
+    opacity: .5;
+}
+.tarjetastar{
+    color: yellow;
 }

@@ -1,12 +1,15 @@
 .cuadrado-radius{
-    width: 50px;
-    height: 50px;
+    width: 24px;
+    height: 24px;
     background-color:#41a02a;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.mano{
+    font-size: 20px;
 }
 .img-container-radius{
     width: 90%;

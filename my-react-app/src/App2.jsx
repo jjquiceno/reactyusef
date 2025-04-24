@@ -44,13 +44,37 @@ function App() {
           </div>
           <div className="mitad-abajo">
             <div className="tarjetas-mitad">
-              <Tarjeta/>
-              <Tarjeta/>
-              <Tarjeta/>
-              <Tarjeta/>
+              <Tarjeta 
+                name={"Avocado Salad"} 
+                corazon={<FontAwesomeIcon icon={faHeartRegular} />}
+                time={"20min"}
+                stars={"4.5"}
+                price={"$2.99"}
+              />
+              <Tarjeta 
+                name={"papas"} 
+                corazon={<FontAwesomeIcon icon={faHeartSolid} />}
+                time={"20min"}
+                stars={"4.5"}
+                price={"$2.99"}
+              />
+              <Tarjeta 
+                name={"hamburguesa"} 
+                corazon={<FontAwesomeIcon icon={faHeartSolid} />}
+                time={"20min"}
+                stars={"4.5"}
+                price={"$2.99"}
+              />
+              <Tarjeta 
+                name={"helado"} 
+                corazon={<FontAwesomeIcon icon={faHeartSolid} />}
+                time={"20min"}
+                stars={"4.5"}
+                price={"$2.99"}
+              />
             </div>
             <div className="iconos-mitad">
-              
+
             </div>
           </div>
         </div>
