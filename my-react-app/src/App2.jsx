@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import './App2.css'
-import { Iconoopaco } from './components/Iconoopaco'
-import { Botonverde } from './components/Botonverde'
 import { Icongreen } from './components/Icongreen'
 import { Icononormal } from './components/Icononormal'
 import { Iconoimg } from './components/Iconoimg'
 import { Searchbar } from './components/Searchbar'
 import { Tarjeta } from './components/Tarjeta'
 
-import { faBars, faSliders, faCartShopping, faMagnifyingGlass, faLocationDot, faBell, faHouse, faMessage } from '@fortawesome/free-solid-svg-icons'
-import { faStar, faDroplet, faClock, faLessThan, faHeart as faHeartSolid } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faCartShopping, faLocationDot, faBell, faHouse, faMessage } from '@fortawesome/free-solid-svg-icons'
+import { faHeart as faHeartSolid } from '@fortawesome/free-solid-svg-icons'
 import { faHeart as faHeartRegular } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -74,7 +72,23 @@ function App() {
               />
             </div>
             <div className="iconos-mitad">
-
+              <div className="iconosm-int">
+                <Icononormal iconon={<FontAwesomeIcon icon={faHouse}/>}/>
+              </div>
+              <div className="iconosm-int">
+                <Icononormal iconon={<FontAwesomeIcon icon={faMessage}/>}/>
+              </div>
+              <div className="iconosm-int">
+                <div className='ca'>
+                  <Icongreen icono={<FontAwesomeIcon icon={faCartShopping}/>}/>
+                </div>
+              </div>
+              <div className="iconosm-int">
+                <Icononormal iconon={<FontAwesomeIcon icon={faBell}/>}/>
+              </div>
+              <div className="iconosm-int">
+                <Icononormal iconon={<FontAwesomeIcon icon={faHeartRegular}/>}/>
+              </div>
             </div>
           </div>
         </div>

@@ -20,14 +20,15 @@ p{
 }
 .tarjeta-corazon{
     position: absolute;
-    top: 0;
-    right: 5%;
+    top: 5%;
+    right: 8%;
     color: red;
 }
 .tarjeta-circulo{
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.336);
     background-image: url(../public/ensalada.avif);
     background-size: cover;
     background-position: center;
