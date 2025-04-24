@@ -6,6 +6,7 @@ import { Icongreen } from './components/Icongreen'
 import { Icononormal } from './components/Icononormal'
 import { Iconoimg } from './components/Iconoimg'
 import { Searchbar } from './components/Searchbar'
+import { Tarjeta } from './components/Tarjeta'
 
 import { faBars, faSliders, faCartShopping, faMagnifyingGlass, faLocationDot, faBell, faHouse, faMessage } from '@fortawesome/free-solid-svg-icons'
 import { faStar, faDroplet, faClock, faLessThan, faHeart as faHeartSolid } from '@fortawesome/free-solid-svg-icons'
@@ -42,7 +43,15 @@ function App() {
             </div>
           </div>
           <div className="mitad-abajo">
-
+            <div className="tarjetas-mitad">
+              <Tarjeta/>
+              <Tarjeta/>
+              <Tarjeta/>
+              <Tarjeta/>
+            </div>
+            <div className="iconos-mitad">
+              
+            </div>
           </div>
         </div>
     </section>
