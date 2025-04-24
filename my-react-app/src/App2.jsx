@@ -22,8 +22,8 @@ function App() {
             <div className="header_arriba">
               <Icongreen icono={<FontAwesomeIcon icon={faBars} />}/>
               <div className="location">
-              <Icononormal iconon={<FontAwesomeIcon icon={faLocationDot} style={{ color: '#41a02a' }} />}/>
-              <span className='nombre_ciudad'>Magura, BD</span>
+                <Icononormal iconon={<FontAwesomeIcon icon={faLocationDot} style={{ color: '#41a02a' }} />}/>
+                <span className='nombre_ciudad'>Magura, BD</span>
               </div>
               <Iconoimg/>
             </div>
@@ -31,7 +31,7 @@ function App() {
               <p className="hi-text">Hi Rinku</p>
               <h2 className="title">Find your food</h2>
             </div>
-            <div className="search_bar">
+            <div className="search_bar searchbar-small">
               <Searchbar/>
             </div>
             <div className="categorias">
