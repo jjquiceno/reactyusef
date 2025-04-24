@@ -8,7 +8,7 @@ import { Iconoimg } from './components/Iconoimg'
 import { Iconoopaco } from './components/Iconoopaco'
 import { Icononormal } from './components/Icononormal'
 import { Searchbar } from './components/Searchbar'
-import { Tarjeta } from './components/Tarjeta'
+//import { Tarjeta } from './components/Tarjeta'
 
 import { faBars, faSliders, faCartShopping, faMagnifyingGlass, faLocationDot, faBell, faHouse, faMessage } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -66,7 +66,7 @@ function App() {
       </div>
       <div className="separador"></div>
       <h1>tarjeta</h1>
-      <Tarjeta/>
+      {/* <Tarjeta/> */}
     </section>
   )
 }
